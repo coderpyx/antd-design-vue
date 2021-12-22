@@ -16,9 +16,7 @@
       <!-- </div> -->
       <div class="app-main">
         <transition
-          name="custom-classes-transition"
-          enter-active-class="animate__animated animate__bounceInLeft"
-          leave-active-class="animate__animated animate__bounceOutRight">
+          name="custom-classes-transition">
           <router-view />
         </transition>
         <back-top />
