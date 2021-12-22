@@ -64,8 +64,6 @@ export default {
   methods: {
     toggleOpen() {
       this.$store.commit('setting/TOGGLE_OPEN');
-    console.log(this.$store.state.setting.open);
-      
     },
     screenFull() {
       if (!screenfull.isEnabled) {
